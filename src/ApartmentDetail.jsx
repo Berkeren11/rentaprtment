@@ -1,7 +1,7 @@
 export default function ApartmentDetail() {
- const handleCheckout = () => {
+const handleCheckout = () => {
   window.location.href =
-    "https://buy.stripe.com/test_3cI6oH0WZao2dMQgJ160o00"
+    "https://buy.stripe.com/test_dRmdR95df7bQbEIcsL6oo01"
 }
 
   return (
