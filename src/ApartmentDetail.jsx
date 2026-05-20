@@ -1,8 +1,8 @@
 export default function ApartmentDetail() {
-  const handleCheckout = () => {
-    window.location.href =
-      "https://buy.stripe.com/test_3cI6oH0WZao2dMQgJ160o00"
-  }
+ const handleCheckout = () => {
+  window.location.href =
+    "https://buy.stripe.com/test_3cI6oH0WZao2dMQgJ160o00"
+}
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -75,8 +75,14 @@ export default function ApartmentDetail() {
           <h2 className="text-6xl font-black bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent mt-3">
             ₺8,500
           </h2>
+<p className="text-zinc-400 mt-2 text-lg">
+  per night
+</p>
 
-          <p className="text-zinc-500 mt-2">per night</p>
+<div className="mt-6 flex items-center gap-2 text-sm text-green-400">
+  <span className="w-2 h-2 bg-green-400 rounded-full"></span>
+  Available for booking
+</div>
 
           <div className="space-y-4 mt-10">
             <input
