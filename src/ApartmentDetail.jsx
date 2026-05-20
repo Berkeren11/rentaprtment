@@ -1,8 +1,9 @@
 export default function ApartmentDetail() {
- const handleCheckout = () => {
-  window.location.href =
-    "https://buy.stripe.com/test_3cI6oH0WZao2dMQgJ16oo00"
-}
+  const handleCheckout = () => {
+    window.location.href =
+      "https://buy.stripe.com/test_3cI6oH0WZao2dMQgJ160o00"
+  }
+
   return (
     <div className="min-h-screen bg-black text-white">
       {/* HERO IMAGE */}
@@ -68,10 +69,10 @@ export default function ApartmentDetail() {
         </div>
 
         {/* BOOKING CARD */}
-        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 h-fit sticky top-32">
+        <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[32px] p-8 h-fit sticky top-32 shadow-2xl">
           <p className="text-zinc-400">Price</p>
 
-          <h2 className="text-5xl font-bold text-yellow-500 mt-2">
+          <h2 className="text-6xl font-black bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent mt-3">
             ₺8,500
           </h2>
 
