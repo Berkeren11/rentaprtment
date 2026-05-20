@@ -4,6 +4,7 @@ const handleCheckout = () => {
     "https://buy.stripe.com/test_dRmdR95df7bQbEIcsL6oo01"
 }
 
+
   return (
     <div className="min-h-screen bg-black text-white">
       {/* HERO IMAGE */}
@@ -39,6 +40,85 @@ const handleCheckout = () => {
         <div className="lg:col-span-2">
           <h2 className="text-3xl font-bold mb-8">
             Apartment Description
+            <div className="mt-20">
+  <h2 className="text-4xl font-bold mb-10">Choose Your Room</h2>
+
+  <div className="grid md:grid-cols-3 gap-8">
+
+    <div className="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+      <img
+        src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop"
+        className="h-64 w-full object-cover"
+      />
+
+      <div className="p-6">
+        <h3 className="text-2xl font-bold">Royal Suite</h3>
+        <p className="text-zinc-400 mt-2">
+          Luxury king bed with sea view balcony.
+        </p>
+
+        <div className="flex justify-between items-center mt-6">
+          <span className="text-yellow-500 text-2xl font-bold">
+            ₺8,500
+          </span>
+
+          <button className="bg-yellow-500 text-black px-5 py-2 rounded-xl font-semibold hover:bg-yellow-400 transition">
+            Select
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div className="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+      <img
+        src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop"
+        className="h-64 w-full object-cover"
+      />
+
+      <div className="p-6">
+        <h3 className="text-2xl font-bold">Executive Room</h3>
+        <p className="text-zinc-400 mt-2">
+          Modern apartment room with smart systems.
+        </p>
+
+        <div className="flex justify-between items-center mt-6">
+          <span className="text-yellow-500 text-2xl font-bold">
+            ₺6,200
+          </span>
+
+          <button className="bg-yellow-500 text-black px-5 py-2 rounded-xl font-semibold hover:bg-yellow-400 transition">
+            Select
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div className="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800">
+      <img
+        src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1200&auto=format&fit=crop"
+        className="h-64 w-full object-cover"
+      />
+
+      <div className="p-6">
+        <h3 className="text-2xl font-bold">Penthouse</h3>
+        <p className="text-zinc-400 mt-2">
+          Premium penthouse with jacuzzi and skyline.
+        </p>
+
+        <div className="flex justify-between items-center mt-6">
+          <span className="text-yellow-500 text-2xl font-bold">
+            ₺14,000
+          </span>
+
+          <button className="bg-yellow-500 text-black px-5 py-2 rounded-xl font-semibold hover:bg-yellow-400 transition">
+            Select
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
           </h2>
 
           <p className="text-zinc-400 leading-8 text-lg">
